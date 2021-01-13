@@ -5,7 +5,7 @@ Markdown-server 提供了Markdown的数学公式 `Latex`，以及流程图`yUML`
 ## 如何使用
 
 - clone 本项目
-    - git clone https://github.com/zzy2008/markdown-server.git
+    - `git clone https://github.com/zzy2008/markdown-server.git`
 - 安装依赖
     - `npm install` 或 `yarn`
 - 启动服务
