@@ -45,4 +45,9 @@ const app = http.createServer((req,res)=>{
         errFn('Please pass LaTeX formula via `tex` parameter or `Yuml` expression using `yuml` parameter.');
     };
 });
-app.listen(8001);
+
+
+const hostname = '127.0.0.1';
+const port = 8001;
+app.listen(port);
+console.log(`latex渲染服务器启动成功，端口号为${port}/`);
