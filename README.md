@@ -9,7 +9,7 @@ Markdown-server 提供了Markdown的数学公式 `Latex`，以及流程图`yUML`
 - 安装依赖
     - `npm install` 或 `yarn`
 - 启动服务
-    - `node index.js`
+    - `node mdserver.js`
 
 ## 查看服务
 
@@ -23,4 +23,4 @@ Markdown-server 提供了Markdown的数学公式 `Latex`，以及流程图`yUML`
 
 ## 修改服务端口
 
-编辑 `index.js` 最后一行的端口号即可。
+编辑 `mdserver.js` 最后一行的端口号即可。

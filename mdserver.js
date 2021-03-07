@@ -31,7 +31,7 @@ const app = http.createServer((req,res)=>{
     }else if(tex){
         mathjax.typeset({
             math:tex,
-            format:'TeX',
+            format:'MathML',
             svg:true,
             cjkCharWidth: 13, 
         },data => {
